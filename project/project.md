@@ -38,4 +38,20 @@ HW3: ILP Scheduler
 
 HW4: Mystery Caches
 
+# 2022 Winter
+
+## Simulation & Synthesis of IBEX RISC-V Core
+
+Ibex is a production-quality open source 32-bit RISC-V CPU core written in SystemVerilog. The CPU core is heavily parametrizable and well suited for embedded control applications. Ibex is being extensively verified and has seen multiple tape-outs.
+
+I performed floor-planning, placing and routing using , IC Compiler II, to generate a production-quality GDSII file,
+
+We did synthesis for a range of clk periods both the dynamic power and the area decreases as the clk period increases From where the clk period is about 7 to 8 ns, the change becomes neglectable but to consider the performance, we decided to use the 7 ns as our clk period.  when the clk freq increases it will harm the performance
+
+<img src="ibex.png" alt="ibex" style="zoom: 33%;" />
+
+## A Brief Introduction of Digital Machine Learning Accelerator Design
+
+In this course, I read 
+
 [back](/)
