@@ -1,4 +1,4 @@
-# 2022
+# 2022 Spring
 
 ## JTAG Interface with Boundary Scan Register
 
